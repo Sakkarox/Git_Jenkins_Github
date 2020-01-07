@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-07T15:33:51.705Z",
+        "line": 4,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1763100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to the website \"google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"google.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.user_navigates_to_the_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1112200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "there user logs in through Login Window by using Username as \"USER\" and Password as \"PASSWORD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"USER\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"PASSWORD\"",
+                  "offset": 84
+                }
+              ],
+              "location": "steps.there_user_logs_in_through_Login_Window_by_using_Username_as_and_Password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 947000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login must be successful.",
+            "match": {
+              "location": "steps.login_must_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@current"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/demo.feature",
+    "tags": []
+  }
+]
